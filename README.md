@@ -1,5 +1,6 @@
-# carbon_emission_analysis
+# Carbon Emission Analysis
 ##1. Introduction
+
 ![image](https://github.com/user-attachments/assets/ab401dcd-3f98-4175-a63a-3c1875067eb9)
 Photo by Chris LeBoutillier (unsplash.com)
 
@@ -7,7 +8,7 @@ This report aims to analyze carbon emissions to examine the carbon footprint acr
 
 Carbon emissions play a crucial role in the environment, accounting for over 75% of global emissions and posing a significant environmental challenge. These emissions contribute to the accumulation of greenhouse gases in the atmosphere, leading to climate change, planetary warming, and involvement in various environmental disasters.
 
-Through this analysis, we hope to gain an understanding of the environmental impact of different industries and contribute to making informed decisions in sustainable development.
+Through this analysis, we hope to understand the environmental impact of different industries and contribute to making informed decisions in sustainable development.
 
 **Data Source: Where Our Data Comes From**
 Our dataset is compiled from publicly available data from nature.com and encompasses the product carbon footprints (PCF) for various companies. PCFs represent the greenhouse gas emissions associated with specific products, quantified in CO2 (carbon dioxide equivalent).
@@ -18,7 +19,7 @@ The dataset consists of 4 tables containing information regarding carbon emissio
 
 ###1.2. Data Structure
 **Tables' columns description**
-####1.2.1. Table 'product_emissions'
+**Table 'product_emissions'**
 1. id: Identifier for each product emission record.
 2. company_id: Identifier for the company associated with the product.
 3. country_id: Identifier for the country where the product is being produced.
@@ -31,6 +32,10 @@ The dataset consists of 4 tables containing information regarding carbon emissio
 10. operations_percent_total_pcf: The percentage of the total carbon footprint attributed to operations.
 11. downstream_percent_total_pcf: The percentage of the total carbon footprint attributed to downstream activities.
 
-####1.2.2. Table 'industry_groups'
+**Table 'industry_groups'**
 1. id: Unique identifier for each industry group.
 2. industry_group: The name of the industry group, categorizing businesses within similar sectors based on their products or services offered.
+
+**Table 'countries'**
+1. id: Unique identifier for each country.
+2. country_name: The name of the country.
