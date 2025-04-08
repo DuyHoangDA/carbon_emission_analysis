@@ -11,15 +11,15 @@ Carbon emissions play a crucial role in the environment, accounting for over 75%
 
 Through this analysis, we hope to understand the environmental impact of different industries and contribute to making informed decisions in sustainable development.
 
-**Data Source: Where Our Data Comes From**
+### 1.1. Data Source
 Our dataset is compiled from publicly available data from nature.com and encompasses the product carbon footprints (PCF) for various companies. PCFs represent the greenhouse gas emissions associated with specific products, quantified in CO2 (carbon dioxide equivalent).
 
-### 1.1. Data Model
+### 1.2. Data Model
 The dataset consists of 4 tables containing information regarding carbon emissions generated during the production of goods.
 
 ![image](https://github.com/user-attachments/assets/6d8aec6d-739f-4a72-b57d-27728c1cafc3)
 
-### 1.2. Data Structure
+### 1.3. Data Structure
 **Tables' columns description**
 **Table 'product_emissions'**
 1. id: Identifier for each product emission record.
