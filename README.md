@@ -1,5 +1,5 @@
 # Carbon Emission Analysis
-##1. Introduction
+## 1. Introduction
 
 ![image](https://github.com/user-attachments/assets/ab401dcd-3f98-4175-a63a-3c1875067eb9)
 
