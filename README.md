@@ -16,6 +16,7 @@ Our dataset is compiled from publicly available data from nature.com and encompa
 
 ### 1.1. Data Model
 The dataset consists of 4 tables containing information regarding carbon emissions generated during the production of goods.
+
 ![image](https://github.com/user-attachments/assets/6d8aec6d-739f-4a72-b57d-27728c1cafc3)
 
 ### 1.2. Data Structure
@@ -43,7 +44,7 @@ The dataset consists of 4 tables containing information regarding carbon emissio
 
 ## 2. Data explores
 
-### 3. Data analysis
+## 3. Data analysis
 ### 3.1. Which products contribute the most to carbon emissions?
 
 
