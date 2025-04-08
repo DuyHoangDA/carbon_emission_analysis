@@ -43,19 +43,22 @@ The dataset consists of 4 tables containing information regarding carbon emissio
 2. country_name: The name of the country.
 
 ## 2. Data explores
+**Data duplicated**
+
+**Duplicated result**
 
 ## 3. Data analysis
 ### 3.1. Which products contribute the most to carbon emissions?
 
-``SQL
+```SQL
 SELECT
 	product_name,
 	ROUND(AVG(carbon_footprint_pcf),2) AS "Average PCF"
-FROM product_emissions
+FROM	product_emissions
 GROUP BY product_name
 ORDER BY carbon_footprint_pcf DESC
 LIMIT 10;
-``
+```
 
 
 | product_name                                                                                                                       | Average PCF | 
