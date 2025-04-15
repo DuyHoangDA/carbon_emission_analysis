@@ -44,7 +44,24 @@ The dataset consists of 4 tables containing information regarding carbon emissio
 
 ## 2. Data explores
 **Data duplicated**
-
+```SQL
+SELECT 
+	*,
+	COUNT(*) AS "duplicated_count"
+FROM product_emissions
+GROUP BY 
+	id,
+	company_id,
+	country_id,
+	industry_group_id ,
+	year,
+	product_name,
+	weight_kg,
+	carbon_footprint_pcf,
+	operations_percent_total_pcf,
+	downstream_percent_total_pcf
+;
+```
 **Duplicated result**
 
 ## 3. Data analysis
